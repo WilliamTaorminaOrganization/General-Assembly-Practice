@@ -1,0 +1,22 @@
+<head>
+	<title></title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+
+<style>
+	div div{float:left; border:3px solid white; width:100px; height:100px; background-color:blue; color:white; font-size:15pt;}
+	.row{clear:both;}
+	</style>
+
+</head>
+<body x-ng-app="" x-ng-init="rows = [ ['a','b','c'], ['d','e','f'], ['g','h','i'] ];">
+
+	<div class="row" x-ng-repeat="x in rows track by $index">
+		<div x-ng-repeat="col in x track by $index" 
+		x-ng-click="rows [$parent.$index][$index]='X';">
+			{{ col }} {{ $parent.$index}} {{ $index }}
+	</div>
+
+
+	</body>
+	</html>

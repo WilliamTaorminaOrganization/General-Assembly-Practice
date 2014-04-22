@@ -1,0 +1,45 @@
+header {
+	background-image:url("../blog-lab/images/background.jpg");
+	background-repeat: repeat-x;
+	width: auto;
+	height: 200px;
+	display: block;
+	text-align: center;
+	padding-top: 50px
+}
+
+
+.master-panel {
+	background-color: green;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+body {
+	background-color: #D6D6D6;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.article-panel {
+	background-color: #FCFCFC;
+	height: auto;
+	width: 70%;
+	float: left;
+}
+
+.side-panel {
+	background-color: #FCFCFC;
+	height: 100px;
+	width: 25%;
+	float: right;
+
+}
+
+.logo {
+	text-align: center;
+}

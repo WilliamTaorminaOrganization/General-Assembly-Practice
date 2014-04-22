@@ -1,0 +1,19 @@
+.cells {
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	border: 2px solid red;
+	float: left;
+	color: blue;
+}
+
+.container {
+
+	width: 462px;
+	margin: 0 auto;
+}
+
+.bgblue {
+
+	background-color: blue;
+}

@@ -1,0 +1,30 @@
+nav {
+	background-color: black;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+body {
+	background-image:url(../img/bg_body.jpg);
+	image
+	background-repeat:repeat;
+}
+
+.box {
+	display: block;
+	display: inline-block;
+}
+
+p {
+	color: red
+
+}
+.lower{
+	border: 
+}

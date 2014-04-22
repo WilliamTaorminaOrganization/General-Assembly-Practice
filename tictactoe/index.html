@@ -1,0 +1,28 @@
+<html>
+<head>
+<title></title>
+
+<style>
+
+div div{float:left; border:3px solid white; width:100px; height:100px; background-color:blue; color:white; font-size:15pt;}
+.row{clear:both;}
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js">
+</script>
+
+
+</head>
+
+<body x-ng-app="" x-ng-init = "rows = ['top','mid', bottom'];num=5;">
+
+<div class="row" x-ng-repeat = "row in rows">
+	<div>{{row}}</div>
+	<div>{{$index}}</div>
+	<div>input type="text" x-ng-model="num"/>{{num}}</div>
+</div>
+
+</body>
+
+
+</html>
