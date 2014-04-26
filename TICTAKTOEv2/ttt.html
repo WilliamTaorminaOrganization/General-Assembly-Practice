@@ -10,12 +10,16 @@
 
 <title>	Tic Tac Toe </title>
 </head>
+<div x-ng-class="title">
+<h1>Sid's Tic Tac Toe</h1>
+</div>
 
 <body x-ng-app="" x-ng-controller="Ticktackctrl">
 	
 	<div class="container">
-		<div x-ng-class="{cells: true, bgblue: $index}" x-ng-repeat="b in board track by $index" x-ng-click="clicker($index)">{{ $b }}</div>
+		<div x-ng-class="{cells: true, xMove: b == 'X', oMove: b == 'O'}" x-ng-repeat="b in board track by $index" x-ng-click="clicker($index)">{{ b }}</div>
 		</div>
+		<button type="reset" value="New Board" x-ng-click="resetboard($index)">Reset the Game</button>
 </body>
 
 </html>
