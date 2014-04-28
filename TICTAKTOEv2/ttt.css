@@ -14,6 +14,7 @@
 	width: 462px;
 	margin: 0 auto;
 	background-color: blue;
+	background-image: url("http://i.imgur.com/0WqZCGP.jpg");
 }
 
 .bgblue {
@@ -24,18 +25,18 @@
 
 .xMove{
 	background-color: lime;
-	opacity: .2
+	opacity: .8
 }
 
 .oMove{
 	background-color: orange;
-	opacity: .2
+	opacity: .8
 }
 
 .cells:hover{
 	background-color: black;
 	opacity: .5;
-	border-radius: 100;
+	border-radius: 100%;
 
 }
 
@@ -46,5 +47,9 @@ h1{
 
 .title{
 	background-color: green;
+
+}
+
+body{
 
 }
